@@ -33,7 +33,7 @@
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/compiler"
+npm i "@aria-toolkit/compiler"
 ```
 
 <br>
