@@ -1,5 +1,5 @@
 {
-	"name": "@igor.dvlpr/compiler",
+	"name": "@aria-toolkit/compiler",
 	"version": "0.0.1-alpha.0",
 	"description": "🌳 Aria - the compiler. 🚶🏼‍♂️",
 	"sideEffects": false,
