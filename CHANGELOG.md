@@ -1,6 +1,6 @@
 ## 📒 Changelog
 
-### of [@igor.dvlpr/compiler](https://github.com/aria-toolkit/compiler)
+### of [@aria-toolkit/compiler](https://github.com/aria-toolkit/compiler)
 
 <br>
 
