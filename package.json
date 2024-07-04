@@ -1,10 +1,10 @@
 {
-	"name": "@igor.dvlpr/$1",
-	"version": "1.0.0",
-	"description": "$2",
+	"name": "@igor.dvlpr/compiler",
+	"version": "0.0.1-alpha.0",
+	"description": "🌳 Aria - the compiler. 🚶🏼‍♂️",
 	"sideEffects": false,
 	"engines": {
-		"node": ">=18.0"
+		"node": ">=20.0"
 	},
 	"types": "./dist/index.d.mts",
 	"main": "./dist/index.mjs",
@@ -14,29 +14,39 @@
 	],
 	"scripts": {
 		"build": "tsc",
-		"test": "vitest --run",
-		"debug": "vitest",
-		"pub": "npm test && npm run build && npm publish --access public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/$3.git"
+		"pub": "npm run build && npm publish --tag alpha --access public"
 	},
 	"keywords": [
-		$4,
+		"adbt",
+		"adblock",
+		"template",
+		"compiler",
+		"ast",
 		"igorskyflyer",
 		"igor.dvlpr"
 	],
-	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"license": "MIT",
+	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
 	"funding": "https://ko-fi.com/igorskyflyer",
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/$3/issues"
+	"homepage": "https://github.com/aria-toolkit/compiler",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aria-toolkit/compiler.git"
 	},
-	"homepage": "https://github.com/igorskyflyer/$3#readme",
+	"bugs": {
+		"url": "https://github.com/aria-toolkit/compiler/issues"
+	},
 	"devDependencies": {
-		"@types/node": "^18.0.0",
-		"typescript": "^5.1.6",
-		"vitest": "^0.32.4"
+		"@biomejs/biome": "^1.8.3",
+		"@types/node": "^20.14.9",
+		"typescript": "^5.5.3"
+	},
+	"dependencies": {
+		"@aria-toolkit/shared": "^0.0.1-alpha.0",
+		"@aria-toolkit/utils": "^0.0.1-alpha.0",
+		"@igor.dvlpr/adblock-filter-counter": "^1.0.0",
+		"@igor.dvlpr/normalized-string": "^1.0.1",
+		"@igor.dvlpr/upath": "^2.1.2",
+		"chalk": "^5.3.0"
 	}
 }
